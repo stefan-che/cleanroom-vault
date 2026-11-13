@@ -1,0 +1,22 @@
+# Secrets - never commit
+config.json
+kek
+*.kek
+
+# Binaries
+encryptor
+encryptor_macos
+encryptor_*
+*.exe
+/bin/
+/dist/
+
+# Test / tooling artefacts
+*.test
+*.out
+coverage.*
+
+# IDE / OS
+/.idea
+/.vscode
+.DS_Store
